@@ -63,6 +63,14 @@ If you are on a macOS machine, and you have [Homebrew](https://brew.sh) installe
 
 On Windows, follow the instructions from the [Github CLI](https://cli.github.com) page.
 
+If you need to authenticate with the GitHub website, use this command:
+
+```
+% gh auth login
+```
+
+This will open a webpage where you can sign-in and authenticate your local repository with GitHub.
+
 ## Parent Folder
 When you pull a project from github onto your computer, you need to decide which "parent" folder will contain this repository. Remember that a "repository" is nothing more than a folder — so you need to place that folder somewhere. Choose a folder that will be this parent folder and open it in your terminal.
 
