@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Crash Cards — Shared Concern</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/p5@2.3.4/lib/p5.js"></script>
+  <!-- Unpacks the spreadsheet export so we can read its header colors. -->
+  <script defer src="https://cdn.jsdelivr.net/npm/fflate@0.8.3/umd/index.js"></script>
+  <script defer src="deck.js"></script>
+  <script defer src="support.js"></script>
+  <script defer src="sketch.js"></script>
+</head>
+<body>
+  <header>
+    <fieldset aria-label="Players"><button data-players="1" aria-pressed="true">1</button><button data-players="2" aria-pressed="false">2</button><button data-players="3" aria-pressed="false">3</button></fieldset>
+    <nav><select id="sheet-select" aria-label="Spreadsheet tab" disabled><option>Loading…</option></select><button id="shuffle">Shuffle</button></nav>
+  </header>
+  <main id="table" aria-label="Card table"><div id="controls"></div></main>
+  <span id="status" class="sr-only" role="status"></span>
+  <p id="announcement" class="sr-only" aria-live="polite"></p>
+</body>
+</html>
