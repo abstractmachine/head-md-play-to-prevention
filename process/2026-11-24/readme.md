@@ -13,6 +13,11 @@ Here are some of the main points to add to your document:
 - Prevention
     - What is the dilemma
     - What is learned?
+- Existing Cyberplatform Analysis
+    - Fictionalization of those platforms
 - Core Mechanics
+    - Interaction Loop(s)
+    - Illustrations/mockups/diagrams (gameplay & interface)
+    - Paper Prototypes
 - Story & Setting
 - Unique Bits
